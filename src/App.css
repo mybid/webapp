@@ -1,0 +1,23 @@
+.main-content {
+  background-color: #f9f9f9;
+}
+
+.main-content {
+  margin-top: 98px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+@media only screen and (min-width: 601px) {
+  .main-content {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+@media only screen and (min-width: 960px) {
+  .main-content {
+    margin-top: 65px;
+    padding-bottom: 150px;
+  }
+}
